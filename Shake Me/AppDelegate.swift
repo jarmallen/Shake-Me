@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Shake It
+//  Shake Me
 //
 //  Created by Jared Allen on 4/1/16.
 //  Copyright © 2016 Jared Allen. All rights reserved.

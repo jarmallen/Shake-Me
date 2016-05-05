@@ -12,16 +12,26 @@
 		FA987FEA1CAF1B980083455D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA987FE81CAF1B980083455D /* Main.storyboard */; };
 		FA987FEC1CAF1B980083455D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA987FEB1CAF1B980083455D /* Assets.xcassets */; };
 		FA987FEF1CAF1B980083455D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA987FED1CAF1B980083455D /* LaunchScreen.storyboard */; };
+		FA987FFC1CAF1D280083455D /* comedy_male_yelling_yee_ha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA987FF71CAF1D280083455D /* comedy_male_yelling_yee_ha.mp3 */; };
+		FA987FFD1CAF1D280083455D /* comedy_zips_pops_and_bonks.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA987FF81CAF1D280083455D /* comedy_zips_pops_and_bonks.mp3 */; };
+		FA987FFE1CAF1D280083455D /* comedy_accent_crash_and_burn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA987FF91CAF1D280083455D /* comedy_accent_crash_and_burn.mp3 */; };
+		FA987FFF1CAF1D280083455D /* boing_comical_accent.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA987FFA1CAF1D280083455D /* boing_comical_accent.mp3 */; };
+		FA9880001CAF1D280083455D /* quick_buzzer_like_a_game_show_wrong_answer_.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FA987FFB1CAF1D280083455D /* quick_buzzer_like_a_game_show_wrong_answer_.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		FA987FE11CAF1B980083455D /* Shake It.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake It.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA987FE11CAF1B980083455D /* Shake Me.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shake Me.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA987FE41CAF1B980083455D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA987FE61CAF1B980083455D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FA987FE91CAF1B980083455D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FA987FEB1CAF1B980083455D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FA987FEE1CAF1B980083455D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA987FF01CAF1B980083455D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA987FF71CAF1D280083455D /* comedy_male_yelling_yee_ha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = comedy_male_yelling_yee_ha.mp3; sourceTree = "<group>"; };
+		FA987FF81CAF1D280083455D /* comedy_zips_pops_and_bonks.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = comedy_zips_pops_and_bonks.mp3; sourceTree = "<group>"; };
+		FA987FF91CAF1D280083455D /* comedy_accent_crash_and_burn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = comedy_accent_crash_and_burn.mp3; sourceTree = "<group>"; };
+		FA987FFA1CAF1D280083455D /* boing_comical_accent.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = boing_comical_accent.mp3; sourceTree = "<group>"; };
+		FA987FFB1CAF1D280083455D /* quick_buzzer_like_a_game_show_wrong_answer_.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = quick_buzzer_like_a_game_show_wrong_answer_.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +48,7 @@
 		FA987FD81CAF1B970083455D = {
 			isa = PBXGroup;
 			children = (
-				FA987FE31CAF1B980083455D /* Shake It */,
+				FA987FE31CAF1B980083455D /* Shake Me */,
 				FA987FE21CAF1B980083455D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,30 +56,44 @@
 		FA987FE21CAF1B980083455D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FA987FE11CAF1B980083455D /* Shake It.app */,
+				FA987FE11CAF1B980083455D /* Shake Me.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FA987FE31CAF1B980083455D /* Shake It */ = {
+		FA987FE31CAF1B980083455D /* Shake Me */ = {
 			isa = PBXGroup;
 			children = (
 				FA987FE41CAF1B980083455D /* AppDelegate.swift */,
 				FA987FE61CAF1B980083455D /* ViewController.swift */,
 				FA987FE81CAF1B980083455D /* Main.storyboard */,
 				FA987FEB1CAF1B980083455D /* Assets.xcassets */,
+				FA987FF61CAF1CF90083455D /* Sounds */,
 				FA987FED1CAF1B980083455D /* LaunchScreen.storyboard */,
 				FA987FF01CAF1B980083455D /* Info.plist */,
 			);
+			name = "Shake Me";
 			path = "Shake It";
+			sourceTree = "<group>";
+		};
+		FA987FF61CAF1CF90083455D /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				FA987FF71CAF1D280083455D /* comedy_male_yelling_yee_ha.mp3 */,
+				FA987FF81CAF1D280083455D /* comedy_zips_pops_and_bonks.mp3 */,
+				FA987FF91CAF1D280083455D /* comedy_accent_crash_and_burn.mp3 */,
+				FA987FFA1CAF1D280083455D /* boing_comical_accent.mp3 */,
+				FA987FFB1CAF1D280083455D /* quick_buzzer_like_a_game_show_wrong_answer_.mp3 */,
+			);
+			name = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FA987FE01CAF1B980083455D /* Shake It */ = {
+		FA987FE01CAF1B980083455D /* Shake Me */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FA987FF31CAF1B980083455D /* Build configuration list for PBXNativeTarget "Shake It" */;
+			buildConfigurationList = FA987FF31CAF1B980083455D /* Build configuration list for PBXNativeTarget "Shake Me" */;
 			buildPhases = (
 				FA987FDD1CAF1B980083455D /* Sources */,
 				FA987FDE1CAF1B980083455D /* Frameworks */,
@@ -79,9 +103,9 @@
 			);
 			dependencies = (
 			);
-			name = "Shake It";
+			name = "Shake Me";
 			productName = "Shake It";
-			productReference = FA987FE11CAF1B980083455D /* Shake It.app */;
+			productReference = FA987FE11CAF1B980083455D /* Shake Me.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +124,7 @@
 					};
 				};
 			};
-			buildConfigurationList = FA987FDC1CAF1B970083455D /* Build configuration list for PBXProject "Shake It" */;
+			buildConfigurationList = FA987FDC1CAF1B970083455D /* Build configuration list for PBXProject "Shake Me" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +137,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FA987FE01CAF1B980083455D /* Shake It */,
+				FA987FE01CAF1B980083455D /* Shake Me */,
 			);
 		};
 /* End PBXProject section */
@@ -123,8 +147,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA987FFC1CAF1D280083455D /* comedy_male_yelling_yee_ha.mp3 in Resources */,
+				FA987FFD1CAF1D280083455D /* comedy_zips_pops_and_bonks.mp3 in Resources */,
+				FA9880001CAF1D280083455D /* quick_buzzer_like_a_game_show_wrong_answer_.mp3 in Resources */,
 				FA987FEF1CAF1B980083455D /* LaunchScreen.storyboard in Resources */,
 				FA987FEC1CAF1B980083455D /* Assets.xcassets in Resources */,
+				FA987FFF1CAF1D280083455D /* boing_comical_accent.mp3 in Resources */,
+				FA987FFE1CAF1D280083455D /* comedy_accent_crash_and_burn.mp3 in Resources */,
 				FA987FEA1CAF1B980083455D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +282,7 @@
 				INFOPLIST_FILE = "Shake It/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredallen.Shake-It";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Shake Me";
 			};
 			name = Debug;
 		};
@@ -264,14 +293,14 @@
 				INFOPLIST_FILE = "Shake It/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jaredallen.Shake-It";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Shake Me";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FA987FDC1CAF1B970083455D /* Build configuration list for PBXProject "Shake It" */ = {
+		FA987FDC1CAF1B970083455D /* Build configuration list for PBXProject "Shake Me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA987FF11CAF1B980083455D /* Debug */,
@@ -280,7 +309,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FA987FF31CAF1B980083455D /* Build configuration list for PBXNativeTarget "Shake It" */ = {
+		FA987FF31CAF1B980083455D /* Build configuration list for PBXNativeTarget "Shake Me" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FA987FF41CAF1B980083455D /* Debug */,
